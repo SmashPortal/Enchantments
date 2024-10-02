@@ -13,13 +13,14 @@
     --error: #C009;
     --item-ct: #FFF;
     --item-ct-shadow: #3F3F3F;
-    --item-ct-ph: #CCC;
+    --item-ct-ph: #AAA;
     --tooltip: #101E;
     --tooltip-edge: #205;
     --tooltip-title: #FBF780;
     --tooltip-title-shadow: #3F3F15;
     --tooltip-text: #ADADAD;
     --tooltip-text-shadow: #2A2A2A;
+    --tooltip-text-ph: #444;
 }
 
 * {
@@ -190,3 +191,5 @@ html, body {
     text-shadow: 2px 2px var(--tooltip-text-shadow);
     width: 13ch;
 }
+
+#npt-ench::placeholder { color: var(--tooltip-text-ph) !important; }
