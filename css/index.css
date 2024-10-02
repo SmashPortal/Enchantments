@@ -54,7 +54,7 @@ html, body {
     flex-direction: column;
     margin: auto;
     padding: 28px;
-    height: clamp(256px, 70vw, 70vh); aspect-ratio: 9/7;
+    height: clamp(256px, 50vh, 50vw); aspect-ratio: 9/7;
 }
 
 .title-box {
